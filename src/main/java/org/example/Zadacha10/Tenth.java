@@ -7,7 +7,7 @@ import java.util.Map;
 public class Tenth {
     public static void main(String[] args) {
         Map<Person, Integer> people = new HashMap<>();
-        people.put(new Person("Alex"), 28);
+        people.put(new Person("Michael"), 28);
         people.put(new Person("Tom"), 12);
         people.put(new Person("Jim"), 44);
         for (Map.Entry<Person, Integer> item : people.entrySet()){
